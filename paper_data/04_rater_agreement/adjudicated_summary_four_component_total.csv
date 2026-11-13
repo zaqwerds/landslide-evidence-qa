@@ -1,0 +1,3 @@
+﻿condition,n_questions,mean_four_component_total,standard_deviation,mean_four_component_total_ci95,unsupported_question_count,unsupported_rate
+A,35,9.4,0.9139442639718567,9.214～9.586,0,0
+C,35,8.528571428571428,1.187823374811213,8.300～8.743,3,0.08571428571428572

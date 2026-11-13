@@ -1,0 +1,11 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+address = "127.0.0.1"
+port = 8501
+maxUploadSize = 500
+showEmailPrompt = false
+
+[client]
+showErrorDetails = true

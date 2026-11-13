@@ -1,0 +1,10 @@
+﻿id,task_type,question_zh,expected_check_en
+SYN-01,text_fact,GNSS1 布设在坡体什么位置？,GNSS1 is at the rear of the slope near the cracks; cite report text or Table 1.
+SYN-02,table_value,表 1 中 GNSS1 的累计水平位移是多少？,4.5 mm belongs to the GNSS1 row of Table 1.
+SYN-03,table_value,表 1 中 GNSS3 的平均水平位移速率是多少？,0.50 mm/d belongs to the GNSS3 row of Table 1.
+SYN-04,table_reasoning,GNSS1 和 GNSS3 的累计水平位移分别是多少，相差多少？,"GNSS1 4.5 mm; GNSS3 15.0 mm; difference 10.5 mm; preserve point-value binding."
+SYN-05,text_fact,两个监测点的观测时段是什么？,"1–30 June 2026; 30 days; stated in section 3 even though the table itself does not repeat the dates."
+SYN-06,cross_evidence,GNSS3 位于坡体哪里？其累计水平位移是多少？请给出来源。,"GNSS3 is at the front of the slope; cumulative displacement 15.0 mm; cite a supporting report carrier."
+SYN-07,unanswerable,GNSS2 的累计水平位移是多少？,"Refuse a numerical value: the report explicitly says there is no GNSS2."
+SYN-08,unanswerable,GNSS1 与 GNSS3 的精确间距是多少？,"Refuse an exact distance: the schematic has no scale or coordinates; 120 m is overall slope length, not point spacing."
+SYN-09,figure_location,请找到显示 GNSS1 和 GNSS3 布设位置的图件，给出图号和图名，并展示或提供可打开的原图入口。两处监测点在图中分别位于坡体哪里？,"Locate Figure 1 (fictional landslide monitoring-point layout schematic); GNSS1 rear and GNSS3 front; provide an existing local figure carrier without claiming pixel-level image interpretation."

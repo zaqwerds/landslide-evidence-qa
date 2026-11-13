@@ -1,0 +1,4 @@
+# Optional dependencies for offline paper-result reconstruction only.
+numpy==2.4.4
+pandas==3.0.3
+scipy==1.17.1

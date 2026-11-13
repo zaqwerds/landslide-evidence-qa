@@ -1,0 +1,58 @@
+{
+  "checked_on": "2026-11-13",
+  "scope": "Selected local metadata and historical version lines; no raw private logs or credentials",
+  "current_workstation": {
+    "os_caption": "Microsoft Windows 11 Home, Chinese edition, 64-bit",
+    "os_nt_version": "10.0.26200",
+    "os_build": "26200",
+    "cpu": "AMD Ryzen 5 5500U with Radeon Graphics",
+    "physical_cores": 6,
+    "logical_processors": 12,
+    "physical_memory_bytes": 16483872768,
+    "installed_memory_module_capacity_bytes": 17179869184,
+    "base_python_version": "3.11.9",
+    "neo4j_desktop_version": "2.3.0",
+    "timezone_id": "China Standard Time",
+    "utc_offset_hours": 8
+  },
+  "historical_server": {
+    "version": "2026.01.4",
+    "edition": "Enterprise",
+    "version_source": "Historical installation packaging_info and neo4j.log",
+    "startup_timestamp_utc": "2026-10-21T07:03:47.569Z",
+    "startup_log_line": 942,
+    "bolt_listener": "localhost:7687",
+    "bolt_timestamp_utc": "2026-10-21T07:03:52.008Z",
+    "bolt_log_line": 948,
+    "neo4j_log_sha256": "53f990d75e95815f446e540323a6386bf54797104e784134c693b04970aa94ca",
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Azul Systems, Inc.",
+      "version": "21.0.12+8-LTS",
+      "timestamp_utc": "2026-10-21T07:03:47.852Z",
+      "debug_log_line": 14169,
+      "debug_log_sha256": "ecf37480fc276e376463ce73c6068da57384f0ec94c91168f0fddddc40e3c33e"
+    },
+    "experiment_configuration": {
+      "run_id": "20261021_151058_897795",
+      "uri": "neo4j://127.0.0.1:7687",
+      "recorded_start_without_offset": "2026-10-21T15:10:58"
+    },
+    "attribution_limit": "Same-date local server and matching configured port; not a per-query version record for all experiments"
+  },
+  "later_local_server": {
+    "version": "2026.10.2",
+    "edition": "Enterprise",
+    "first_start_in_retained_log_utc": "2026-11-12T08:27:21.574Z",
+    "startup_log_line": 6,
+    "neo4j_log_sha256": "b704ef05833d30711396102bebf9fffc69a8edfa23b9b4b4627fddb119adfdf4",
+    "use_for_october_experiment_not_established": true
+  },
+  "dependency_snapshot_scopes": {
+    "current_base_environment_packages": 147,
+    "validated_isolated_release_environment_packages": 92,
+    "historical_complete_dependency_freeze_recovered": false,
+    "original_unpinned_requirements_sha256": "d7748a3944a8ba23e98f1b8fb7c9701c831cfbfa050a2cfc8a82c47168aaff55"
+  },
+  "server_started_or_database_modified_during_inspection": false
+}

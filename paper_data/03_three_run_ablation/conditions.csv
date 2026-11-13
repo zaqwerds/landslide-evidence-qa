@@ -1,0 +1,4 @@
+﻿condition,condition_name,generation_mode,table_representation,scope
+A,Structured evidence with constrained generation,constrained,structured,All questions
+B,Flattened table evidence with constrained generation,constrained,flattened,Table questions only
+C,Structured evidence with free generation,free,structured,All questions

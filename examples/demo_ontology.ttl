@@ -1,0 +1,35 @@
+@prefix : <https://example.org/landslide-demo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/landslide-demo> a owl:Ontology ;
+    rdfs:comment "本体为项目自行编写的最小演示资料，只用于检查网页上传与处理流程。"@zh .
+
+:滑坡本体 a owl:Class ;
+    rdfs:comment "虚构滑坡示例的核心类别。"@zh .
+
+:地理位置 a owl:Class ;
+    rdfs:subClassOf :滑坡本体 .
+
+:地层岩土 a owl:Class ;
+    rdfs:subClassOf :滑坡本体 .
+
+:地下水 a owl:Class ;
+    rdfs:subClassOf :滑坡本体 .
+
+:降雨参数 a owl:Class ;
+    rdfs:subClassOf :滑坡本体 .
+
+:地表位移 a owl:Class ;
+    rdfs:subClassOf :滑坡本体 .
+
+:地裂缝空间分布 a owl:Class ;
+    rdfs:subClassOf :滑坡本体 .
+
+:影响 a owl:ObjectProperty ;
+    rdfs:domain :降雨参数 ;
+    rdfs:range :滑坡本体 .
+
+:位于 a owl:ObjectProperty ;
+    rdfs:domain :滑坡本体 ;
+    rdfs:range :地理位置 .

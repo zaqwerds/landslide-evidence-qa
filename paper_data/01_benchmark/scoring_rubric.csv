@@ -1,0 +1,19 @@
+﻿rule_category,metric_or_case,score_or_judgment,criterion_or_explicit_unit_flag,included_in_semantic_score_or_handling
+Semantic and evidence scoring,Correctness,4,"Core conclusions, objects, values and semantic relations are correct. Accept synonyms, reasonable precision, equivalent conversions and units unambiguously inherited from the question.",Yes
+Semantic and evidence scoring,Correctness,3,"The core answer is correct, with minor ambiguity or precision issues that do not change the engineering judgment.",Yes
+Semantic and evidence scoring,Correctness,2,"Partially correct, but with an important omission or a substantive error.",Yes
+Semantic and evidence scoring,Correctness,1,Only a small amount of relevant content is correct.,Yes
+Semantic and evidence scoring,Correctness,0,"The core answer is wrong, an object is misassigned, refusal is incorrect, or the main content is fabricated.",Yes
+Semantic and evidence scoring,Completeness,2,Covers all required key facts and necessary qualifications.,Yes
+Semantic and evidence scoring,Completeness,1,"The core conclusion is correct, but at least one required fact or necessary qualification is missing.",Yes
+Semantic and evidence scoring,Completeness,0,Core facts are missing or the answer incorrectly refuses.,Yes
+Semantic and evidence scoring,Report faithfulness,2,All substantive statements are supported by the report or evidence.,Yes
+Semantic and evidence scoring,Report faithfulness,1,Minor overreach is present without changing the core judgment.,Yes
+Semantic and evidence scoring,Report faithfulness,0,Contains an unsupported statement that could change the factual judgment.,Yes
+Semantic and evidence scoring,Evidence traceability,2,Source identification is correct and sufficient.,No
+Semantic and evidence scoring,Evidence traceability,1,Source identification is incomplete but not incorrect.,No
+Semantic and evidence scoring,Evidence traceability,0,"Incorrect citation, fabricated source or invented figure/table. Use NA when sources were neither requested nor claimed.",No
+Unit semantics,The question specifies the unit and the answer gives the uniquely correct value,Correct,0,Inherit the unit from the question; do not lower correctness or completeness
+Unit semantics,The answer explicitly states the correct unit,Correct,1,Record normally
+Unit semantics,Equivalent unit conversion is correct,Correct,1,Treat as semantically equivalent
+Unit semantics,"Incorrect unit, conversion, order of magnitude, object or time interval",Substantive error,0,Lower correctness according to the impact
