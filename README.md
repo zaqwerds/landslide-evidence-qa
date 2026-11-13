@@ -44,14 +44,14 @@ Run commands from the repository root. On Windows PowerShell:
 ```powershell
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe "启动网页.py"
+.\.venv\Scripts\python.exe launch_app.py
 ```
 
 If using an existing Python 3.11 environment:
 
 ```text
 python -m pip install -r requirements.txt
-python "启动网页.py"
+python launch_app.py
 ```
 
 The browser should open at http://127.0.0.1:8501 . If it does not, open that address manually. The launcher binds to the local loopback address; do not expose this unauthenticated research interface to the Internet.

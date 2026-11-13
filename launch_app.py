@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Launch the local interactive web application."""
+"""Launch the local web application from the repository root."""
 
 from __future__ import annotations
 

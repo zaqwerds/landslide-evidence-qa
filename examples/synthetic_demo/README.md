@@ -16,7 +16,7 @@ The CSV is encoded as UTF-8 with a byte-order mark so Chinese questions are reco
 
 The test document is a **record of one completed run**, not an additional input report. It preserves the nine-question result table and an image of the fictional figure. Its relative `output/` and `artifacts/` paths refer to the separate test copy used to produce the record; those runtime files are intentionally not bundled in this public repository. Use the input report and steps below to create your own run files.
 
-Start the web application from the repository root using `python "启动网页.py"`. Use a **dedicated** Neo4j database if you plan to test graph writing; the interface has a maintenance control that can clear all reports in the connected database. A cloud extraction or answer-generation run also needs your own API credentials and may incur charges.
+Start the web application from the repository root using `python launch_app.py`. Use a **dedicated** Neo4j database if you plan to test graph writing; the interface has a maintenance control that can clear all reports in the connected database. A cloud extraction or answer-generation run also needs your own API credentials and may incur charges.
 
 ## A. Local processing without an API or database
 
