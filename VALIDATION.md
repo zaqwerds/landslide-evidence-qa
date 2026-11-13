@@ -1,6 +1,6 @@
 # Release validation
 
-Checked locally on **13 November 2026**. This report distinguishes tested offline functionality from services and restricted data that were not exercised. It is not a journal-compliance certification or a claim that the repository is already public.
+Checked locally on **13 November 2026**. This report distinguishes tested offline functionality from services and restricted data that were not exercised. Public access was checked separately as recorded below; this report is not a journal-compliance certification.
 
 ## Environment
 
@@ -24,6 +24,7 @@ A subsequent read-only local inspection recovered historical Neo4j version evide
 | Local processing pipeline | An existing authorized DOCX was processed in a private directory outside this repository, using the demo ontology and local rules. All 64 tables and 259 figures were parsed; text processing was limited to two segments. Ingestion, parsing, extraction, fusion and quality control completed; Neo4j writing was disabled |
 | Fictional DOCX smoke test | A separate test copy processed the included [synthetic report](examples/synthetic_demo/README.md) with local rules, then DeepSeek extraction and a live Neo4j/QA run. Parsing found 7 text blocks, 1 table and 1 figure without parser warnings. The live graph run reported 12 event nodes, 3 table rows, 12 cells and 0 storage errors. Nine sequential questions in one chat session were manually classified as 6 pass, 2 partial and 1 fail. The [Chinese test record](examples/synthetic_demo/test_record_zh.docx) documents that run; its referenced runtime paths are not included. These are diagnostic observations, not paper-result reproduction or a general performance estimate |
 | Release-candidate scan | Check local documentation links, syntax, English comments/docstrings, CSV headers and common API/GitHub-token patterns; exclude runtime directories and restricted report/archive formats |
+| Public availability, 13 November 2026 | The [repository](https://github.com/zaqwerds/landslide-evidence-qa) and raw README returned HTTP 200 without an Authorization header. An anonymous HTTPS Git clone of initial application commit `efbc2705a396310f672b9dd235fcae51de6915c1` retrieved all 82 tracked files. All 15 offline tests passed from that downloaded copy using the existing local Python environment; this was not another clean-environment installation or a live API/database run |
 
 Numerical reconstruction distinguishes the main three-component semantic score from the four-component totals in the rater subset. The main ablation uses the `wilcox` zero convention; the historical 35-question adjudication uses Pratt handling. These are documented separately rather than silently replacing historical statistics.
 
@@ -55,7 +56,6 @@ py -3.11 -m venv .venv
 - Full-report LLM extraction or regeneration of the original paper answers.
 - Independent expert validation of reference answers or model-assisted scores.
 - Linux/macOS behavior or minimum hardware requirements.
-- Public repository reachability, which must be checked after publication.
 
 The synthetic smoke test exposed unresolved issues: table events sent to review by a numeric-unit check despite retained units, a schematic misclassified as a plan view, DOCX page metadata differing from rendered pagination, a false refusal caused by missing prose evidence for the monitoring period, and a figure-location answer whose browser-open action was not recorded. Its requested `deepseek-chat` label and the `deepseek-flash` response metadata do not identify a fixed provider backend. Do not present the 6/9 manual pass count as an efficacy estimate.
 
