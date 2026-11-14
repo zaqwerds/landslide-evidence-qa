@@ -2,7 +2,7 @@
 
 ## External research ontology
 
-`KnowledgeSet_Landslide_CN.ttl` is an external landslide ontology knowledge set. Recorded sources are the [provider's file](https://github.com/zhiyuanxu839-bit/---/blob/master/KnowledgeSet_Landslide_CN.ttl), the [dataset page](https://www.noda.ac.cn/datasharing/datasetDetails/698941176acb974efd3a0c43) and DOI [10.11878/db.202602.000061](https://doi.org/10.11878/db.202602.000061). Public visibility does not establish permission to redistribute it. This repository excludes that research TTL.
+`KnowledgeSet_Landslide_CN.ttl` is an external landslide ontology knowledge set. The source account is [zhiyuanxu839-bit](https://github.com/zhiyuanxu839-bit). Recorded sources are the [provider's file](https://github.com/zhiyuanxu839-bit/---/blob/master/KnowledgeSet_Landslide_CN.ttl), the [dataset page](https://www.noda.ac.cn/datasharing/datasetDetails/698941176acb974efd3a0c43) and DOI [10.11878/db.202602.000061](https://doi.org/10.11878/db.202602.000061). Public visibility does not establish permission to redistribute it. This repository excludes that research TTL.
 
 Acquire a compatible ontology from its provider under the applicable conditions, or supply one that you are authorized to use. Cite the provider as appropriate. The project-authored [demo ontology](examples/demo_ontology.ttl) is limited and does not replace the full research ontology.
 

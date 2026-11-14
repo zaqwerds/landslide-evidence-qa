@@ -75,7 +75,7 @@ A syntactically valid Turtle file is not necessarily suitable for this applicati
 
 The fictional DOCX and step-by-step checks for that workflow are provided in the [synthetic report tutorial](examples/synthetic_demo/README.md). They allow a source-to-output demonstration without disclosing the restricted case-study report.
 
-The research ontology `KnowledgeSet_Landslide_CN.ttl` is not redistributed. Its recorded sources are the [provider's original file](https://github.com/zhiyuanxu839-bit/---/blob/master/KnowledgeSet_Landslide_CN.ttl) and [dataset page](https://www.noda.ac.cn/datasharing/datasetDetails/698941176acb974efd3a0c43). Check the provider's conditions yourself. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md); this project's MIT license does not relicense third-party material.
+The research ontology `KnowledgeSet_Landslide_CN.ttl` is not redistributed. Its source account is [zhiyuanxu839-bit](https://github.com/zhiyuanxu839-bit); the recorded sources are the [provider's original file](https://github.com/zhiyuanxu839-bit/---/blob/master/KnowledgeSet_Landslide_CN.ttl) and [dataset page](https://www.noda.ac.cn/datasharing/datasetDetails/698941176acb974efd3a0c43). Check the provider's conditions yourself. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md); this project's MIT license does not relicense third-party material.
 
 ## 5. Inputs, outputs, and local storage
 
